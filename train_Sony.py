@@ -1,7 +1,7 @@
 # uniform content loss + adaptive threshold + per_class_input + recursive G
 # improvement upon cqf37
 from __future__ import division
-import os, time, scipy.io
+import os, time, scipy.io, scipy.misc
 import torch
 from torch import optim
 import numpy as np
