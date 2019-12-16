@@ -24,7 +24,7 @@ class Double_Conv2d(nn.Module):
 
 class UNetSony(nn.Module):
     def __init__(self):
-        super(UNet, self).__init__()
+        super(UNetSony, self).__init__()
         self.conv1 = Double_Conv2d(4, 32)
         self.conv2 = Double_Conv2d(32, 64)
         self.conv3 = Double_Conv2d(64, 128)
@@ -87,7 +87,7 @@ class UNetSony(nn.Module):
 
 class UNetFuji(nn.Module):
     def __init__(self):
-        super(UNet, self).__init__()
+        super(UNetFuji, self).__init__()
         self.conv1 = Double_Conv2d(9, 32)
         self.conv2 = Double_Conv2d(32, 64)
         self.conv3 = Double_Conv2d(64, 128)
