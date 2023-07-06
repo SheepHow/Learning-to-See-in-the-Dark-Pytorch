@@ -1,6 +1,6 @@
 torch
 torchvision
 numpy
-scipy==1.0.0
+scipy==1.10.0
 scikit-image
 rawpy
